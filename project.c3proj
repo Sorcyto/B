@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -29,6 +36,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Anchor",
+			"name": "Ancla",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Arrastrar y soltar",
 			"author": "Scirra",
@@ -36,8 +50,22 @@
 		},
 		{
 			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direcciones",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Pin",
 			"name": "Pegado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "custom",
+			"name": "Personalizado",
 			"author": "Scirra",
 			"bundled": false
 		}
@@ -73,7 +101,13 @@
 			"puntoPSU",
 			"puntoram",
 			"Texto",
-			"Texto2"
+			"Texto2",
+			"images",
+			"pngtransparentpixelartstartbuttontextlogonumberthumbnail",
+			"Sprite2",
+			"EntradaDeTexto",
+			"Texto3",
+			"Mouse"
 		],
 		"subfolders": []
 	},
@@ -85,14 +119,16 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Escena 1",
+			"Escena 2"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"Hoja de eventos 3"
 		],
 		"subfolders": []
 	},
